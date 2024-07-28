@@ -1,0 +1,57 @@
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Welcome to the System!</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            
+            <li >
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" routerLink="/account">Attendence</a>
+            </li>
+            <li>
+                <a href="#" routerLink="/DailyReports">Daily Report</a>
+            </li>
+            <li class="active">
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" routerLink="/Chemicals">Chemicals</a>
+            </li>
+            <li>
+                <a href="#" routerLink="/MangoPlantStock">Mango Plant Stock</a>
+            </li>
+            <li>
+                <a href="#" routerLink="/GraftingDetails">Grafting Details</a>
+            </li>
+        </ul>
+        <button>Print Summary</button>
+        
+    </nav>
+  
+    <!-- Page Content  -->
+    <div id="content">
+
+       
+  
+    <div class="container">
+        <h2>Chemicals Management Form</h2>
+        <form action="/submit-chemical-details" method="post">
+            <label for="chemicalName">Chemical Name:</label>
+            <input type="text" id="chemicalName" name="chemicalName" required>
+
+            <label for="purchaseDate">Purchase Date:</label>
+            <input type="date" id="purchaseDate" name="purchaseDate" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label for="usageInstructions">Usage Instructions:</label>
+            <textarea id="usageInstructions" name="usageInstructions" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+        
+    </div>
+</div>
+

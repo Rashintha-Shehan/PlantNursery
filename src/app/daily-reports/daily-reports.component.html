@@ -1,0 +1,84 @@
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Welcome to the System!</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            
+            <li >
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" routerLink="/account">Attendence</a>
+            </li>
+            <li class="active">
+                <a href="#" routerLink="/DailyReports">Daily Report</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" routerLink="/Chemicals">Chemicals</a>
+            </li>
+            <li>
+                <a href="#" routerLink="/MangoPlantStock">Mango Plant Stock</a>
+            </li>
+            <li>
+                <a href="#" routerLink="/GraftingDetails">Grafting Details</a>
+            </li>
+        </ul>
+
+        
+    </nav>
+
+    <!-- Page Content  -->
+    <form action="#" method="post">
+        
+            <div class="container">
+                <header>
+                    <h1>Daily Report</h1>
+                </header>
+                <section class="content">
+                    <form id="daily-report-form">
+                        <h2>Generate Daily Report</h2>
+                        <div class="form-group">
+                            <label for="report-date">Select Date:</label>
+                            <input type="date" id="report-date" name="report-date" required>
+                        </div>
+                        <button type="submit">Generate Report</button>
+                    </form>
+        
+                    <div id="daily-report">
+                        <h2>Report Details</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Activity</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Plant Sales</td>
+                                    <td>Number of plants sold, types, revenue generated</td>
+                                </tr>
+                                <tr>
+                                    <td>Inventory Updates</td>
+                                    <td>Changes in stock levels, new arrivals</td>
+                                </tr>
+                                <tr>
+                                    <td>Grafting Activities</td>
+                                    <td>Grafting details, success rates</td>
+                                </tr>
+                                <tr>
+                                    <td>Chemical Usage</td>
+                                    <td>Types of chemicals used, quantities</td>
+                                </tr>
+                                <tr>
+                                    <td>Employee Tasks</td>
+                                    <td>Summary of tasks performed by employees</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        
+        
+

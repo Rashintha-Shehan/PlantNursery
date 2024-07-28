@@ -1,0 +1,26 @@
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: green;
+    margin-left: 20px;
+}
+
+.navbar{
+    background-color:#ffffff;
+
+}
+
+.nav-item{
+    font-weight: bold;
+}
+.nav-item:hover{ 
+    color: #1ebc3b; 
+}
+ 
+.text-uppercase{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #ffffff;
+}

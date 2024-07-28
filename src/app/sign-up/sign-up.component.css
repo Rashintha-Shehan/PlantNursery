@@ -1,0 +1,31 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .color{
+        background: rgb(88,215,130);
+        background: linear-gradient(90deg, rgba(88,215,130,1) 6%, rgba(0,191,99,1) 44%, rgba(176,237,163,1) 93%);
+  
+    }
+
+    .staffregphto{
+        margin-top: 40px;
+    }
+
+    .Position{
+        border-radius: 10px;
+    }
+    .btn{
+        background-color: #00BF63;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: normal;
+
+    } 
